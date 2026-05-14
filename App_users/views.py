@@ -5,3 +5,5 @@ def homepage(request):
     return HttpResponse("<h1>WELCOME My Webpage</h1>")
 def usersid(request):
     return HttpResponse("<h1>user id cheak</h1>")
+def userid(request,id):
+    return HttpResponse(f"user id check:{id}")

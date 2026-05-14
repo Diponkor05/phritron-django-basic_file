@@ -1,6 +1,7 @@
 from django.urls import path
-from .views import homepage,usersid
+from .views import homepage,usersid,userid
 urlpatterns=[
      path("",homepage),
-     path("userId/",usersid)
+     path("userId/",usersid),
+     path("userid/<int:id>",userid)
 ]
