@@ -6,3 +6,6 @@ def homepage(request):
 def usersid(request):
     return HttpResponse("<h1>user id cheak</h1>")
 
+def userid(request,id):
+    return HttpResponse(f"user id check:{id}")
+
